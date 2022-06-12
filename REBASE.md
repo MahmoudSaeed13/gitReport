@@ -25,7 +25,7 @@ git rebase master
 
 When showing the branch tree it will look like that
 
-![img](./images/rebase_feature.png)
+![img](./rebase_feature.png)
 
 the feature branch now starts from the last commit in the master branch and it is two commits ahead of it so we want to do the same to the master branch to kind of merge the changes on the feature branch into the master branch.
 
@@ -36,6 +36,7 @@ git switch master
 git rebase feature
 ```
 and showing the branches tree it will look like that
+
 ![img](./images/rebase_master.png)
 
 Now both branches ar at the same level and all changes are merged into the master branch and we can push the changes to the remote repo if there is no problems.
