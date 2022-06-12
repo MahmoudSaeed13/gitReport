@@ -11,7 +11,7 @@ We'll take the case where a feature branch is made from a commit ***the commit s
 ```
 git log --all --graph --decorate --oneline
 ```
-![img](./Screenshot%20from%202022-06-11%2022-38-42.png)
+![img](./images/Screenshot%20from%202022-06-11%2022-38-42.png)
 
 
 The idea here is to rebase the two branches to make the feature branch start from the last commit in the master branch and also merge the changes on the feature branch into the master branch.
@@ -24,7 +24,9 @@ git rebase master
 ```
 
 When showing the branch tree it will look like that
-![img](./rebase_feature.png)
+
+![img](./images/rebase_feature.png)
+
 the feature branch now starts from the last commit in the master branch and it is two commits ahead of it so we want to do the same to the master branch to kind of merge the changes on the feature branch into the master branch.
 
 when switching to the master branch now and runnig the rebase command again 
@@ -34,6 +36,6 @@ git switch master
 git rebase feature
 ```
 and showing the branches tree it will look like that
-![img](./rebase_master.png)
+![img](./images/rebase_master.png)
 
 Now both branches ar at the same level and all changes are merged into the master branch and we can push the changes to the remote repo if there is no problems.
