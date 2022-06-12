@@ -11,6 +11,8 @@ Here we will find that branch feature has changes to create a pull request we cl
 
 When opening the PR the developer can write a description to what he did and what is this PR about and also can put other devs who are working on the same project *of course his leader* to be reviewers like I added @ShimaaAttallah as a reviewer here 
 
+![img](./images/creatingPR.png)
+
 An open disscution is open in the PR and the reviewers can give comments on the code and also can approve the merge.
 The approach taken in reviewing the code and approvign and merging is a team desicion approach each team decide base on the project needs and their experince.
 
