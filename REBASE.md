@@ -36,6 +36,7 @@ git switch master
 git rebase feature
 ```
 and showing the branches tree it will look like that
+
 ![img](./rebase_master.png)
 
 Now both branches ar at the same level and all changes are merged into the master branch and we can push the changes to the remote repo if there is no problems.
